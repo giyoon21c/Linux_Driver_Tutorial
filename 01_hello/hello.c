@@ -3,13 +3,13 @@
 
 int my_init(void)
 {
-	printk("hello - Hello, Kernel!\n");
-	return 0;
+    printk("hello - Hello, Kernel!\n");
+    return 0;
 }
 
 void my_exit(void)
 {
-	printk("hello - Goodbye, Kernel!\n");
+    printk("hello - Goodbye, Kernel!\n");
 }
 
 module_init(my_init);
